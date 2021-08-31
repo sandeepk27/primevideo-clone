@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Fira Sans, sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #1A242F;
+    padding: 1em;
+    width: 100%;
+    height: 70px;
+    position: relative;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.fa-globe {
+    color: #8197a4;
+    margin-left: 970px;
+    justify-content: space-between;
+    width: 50px;
+    font-size: large;
+    cursor: pointer;
+}
+
+.signin {
+    color: #8197a4;
+    margin-left: 40px;
+    font-weight: 300;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.one {
+    background-color: black;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.third img {
+    height: 400px;
+    width: auto;
+}
+
+.first {
+    margin-right: 4.5rem;
+    margin-left: 1rem;
+}
+
+.first h1 {
+    font-size: 2.1em;
+    font-weight: bold;
+    color: white;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+.first p {
+    padding-bottom: 2em;
+    color: white;
+    font-size: 1.3em;
+}
+
+.first input[type=button] {
+    background-color: #0F79AF;
+    color: white;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 50px;
+    width: 280px;
+}
+
+.two {
+    background-color: black;
+    display: flex;
+    height: 500px;
+}
+
+.fourth img {
+    height: 75%;
+    width: 120%;
+    padding-top: 2em;
+}
+
+.fifth {
+    margin-left: 15.5rem;
+    margin-right: 2rem;
+}
+
+.fifth h1 {
+    font-size: 2.1em;
+    font-weight: bold;
+    color: white;
+    text-align: justify;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+.fifth p {
+    padding-bottom: 2em;
+    color: white;
+    font-size: 1.3em;
+}
+
+.fifth input[type=button] {
+    background-color: #0F79AF;
+    color: white;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 50px;
+    width: 280px;
+}
+
+.three {
+    background-color: black;
+    display: flex;
+    height: 300px;
+    flex-direction: row-reverse;
+}
+
+.seventh img {
+    width: 100%;
+    margin-top: 1.rem;
+    padding-bottom: 0;
+}
+
+.eighth {
+    margin: 0 7.5rem 10rem 4rem;
+}
+
+.eighth h1 {
+    font-size: 2.1em;
+    font-weight: bold;
+    color: white;
+    text-align: justify;
+    padding-top: 0.3em;
+    padding-bottom: 0.8em;
+}
+
+.eighth p {
+    padding-bottom: 1.3em;
+    color: white;
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+.eighth input[type=button] {
+    background-color: #0F79AF;
+    color: white;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 50px;
+    width: 280px;
+}
+
+.four {
+    background-color: black;
+    display: flex;
+    height: 400px;
+}
+
+.eleventh img {
+    height: 90%;
+    width: 180%;
+    padding-top: 2em;
+}
+
+.eleventh {
+    margin-left: 2.5rem;
+    margin-right: 2rem;
+}
+
+.twelth h1 {
+    font-size: 2.1em;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    text-align: justify;
+    margin: 4rem 2rem 1rem 20rem;
+}
+
+.twelth p {
+    margin: 1rem 2rem 3rem 20rem;
+    color: white;
+    font-size: 1.3em;
+}
+
+.twelth input[type=button] {
+    background-color: #0F79AF;
+    color: white;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 50px;
+    width: 280px;
+    margin-left: 20rem;
+}
+
+.five {
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 4rem;
+}
+
+.fourteenth img {
+    height: 250px;
+    width: 250px;
+    margin-left: 2rem;
+}
+
+.fifteenth h1 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    padding-top: 0.3em;
+    padding-bottom: 0.2em;
+}
+
+.fifteenth p {
+    font-size: 1rem;
+    color: black;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.sixteenth img {
+    height: 250px;
+    width: 250px;
+    margin-left: 1.7rem;
+}
+
+.seventeenth h1 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    padding-top: 0.3em;
+    padding-bottom: 0.2em;
+}
+
+.seventeenth p {
+    font-size: 1rem;
+    color: black;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.eighteenth img {
+    height: 250px;
+    width: 250px;
+    margin-left: 1.9rem;
+}
+
+.nineteenth h1 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    padding-top: 0.3em;
+    padding-bottom: 0.2em;
+}
+
+.nineteenth p {
+    font-size: 1rem;
+    color: black;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.six {
+    background-color: black;
+    display: flex;
+    height: 400px;
+    flex-direction: row-reverse;
+}
+
+.twentyth img {
+    height: 400px;
+    width: auto;
+    display: flex;
+    margin-left: 3rem;
+}
+
+.twentyone h1 {
+    font-size: 2.2em;
+    font-weight: bold;
+    color: white;
+    text-align: justify;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    margin-left: 3rem;
+}
+
+.twentyone p {
+    font-size: 1.2em;
+    color: white;
+    text-align: justify;
+    padding-bottom: 1.5em;
+    margin-left: 3rem;
+}
+
+.twentyone input[type=button] {
+    background-color: #0F79AF;
+    color: white;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 50px;
+    width: 280px;
+    margin-left: 3rem;
+}
+
+.footer {
+    background-color: #222222;
+}
+
+.footer img {
+    margin: 2rem 0 1rem 39.3rem;
+    cursor: pointer;
+}
+
+.footer ul {
+    margin: 0 1rem 0 30rem;
+}
+
+.footer li {
+    display: inline;
+    cursor: pointer;
+    list-style: none;
+    justify-content: space-around;
+    font-size: 15px;
+    margin-left: 1.2rem
+}
+
+.footer p {
+    color: #8197a4;
+    margin: 0.9rem 0 0 3rem;
+}
+
+.footer .copy {
+    color: #8197a4;
+    font-size: 16px;
+    margin: 1rem 0.5rem 0 38.6rem;
+}
